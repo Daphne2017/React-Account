@@ -10,3 +10,5 @@ npm install
 #### 运行
 
 npm run start
+# react-account
+Redux与Redux-Saga的故事  react-redux  redux-saga redux-actions
