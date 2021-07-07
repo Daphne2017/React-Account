@@ -5,7 +5,7 @@ import Modal from './component/Modal';
 import actions from './store/actions';
 import { useSelector, useDispatch } from 'react-redux';
 import './App.css';
-
+// useSelector、useDispatch的使用方式 https://blog.csdn.net/vitaviva/article/details/104508139
 function App() {
 
   const [visible, setVisible] = useState(false);
