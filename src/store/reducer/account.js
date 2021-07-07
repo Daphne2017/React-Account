@@ -14,10 +14,12 @@ const reducer = handleActions(
     new Map([
         [
             actions.setLoading,
-            (state, {
-                payload
-            }) =>
-            state.set("loading", payload)
+            (state, action) =>
+            {
+                console.log("reducer里边的action",action);
+                return state.set("loading", action.payload)
+            }
+           
         ],
         [
             actions.setAccount,
