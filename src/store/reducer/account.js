@@ -9,7 +9,9 @@ const defaultState = Immutable({
     accounts: [],
     all: 0
 });
-
+// createAction: https://github.com/redux-utilities/redux-actions/blob/master/docs/api/createAction.md
+// combineActions: https://github.com/redux-utilities/redux-actions/blob/master/docs/api/combineActions.md
+// handleActions的使用方法：https://github.com/redux-utilities/redux-actions/blob/master/docs/api/handleAction.md
 const reducer = handleActions(
     new Map([
         [

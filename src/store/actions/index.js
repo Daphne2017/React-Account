@@ -1,5 +1,6 @@
 // 'redux-actions'的使用方法 https://www.jianshu.com/p/c6096d61ae1c
 // 'redux-actions' https://segmentfault.com/a/1190000013026224
+
 import { createAction,createActions } from 'redux-actions';
 const action1 = createAction("action1",()=>[1,2,3]);
 const action2 = createAction("action2");
@@ -17,5 +18,5 @@ const actions = createActions({
 console.log("action1:",action1());
 console.log("action2:",action2(100));
 console.log("actions:",actions);
-console.log("SET_LOADING",actions.setLoading("setLoading")); 
+console.log("SET_LOADING",actions.setLoading); 
 export default actions;
